@@ -2,6 +2,8 @@ package com.flannery;
 
 import java.util.ArrayDeque;
 import java.util.Queue;
+import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
@@ -11,7 +13,8 @@ public class main {
     public static void main(String[] args) {
         System.out.println("Hello World!");
         //testProductConsumeByWaitAndNotify();
-        testProductConsumeByLock();
+//        testProductConsumeByLock();
+        testProductConsumeByBlockingQueue();
     }
 
     // 1. 使用wait()和notify()实现
@@ -94,17 +97,17 @@ public class main {
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-                for(int i=0;i<20;i++) {
+                for (int i = 0; i < 20; i++) {
                     lock.lock();
                     try {
-                        if(queue.size() == SIZE) {
+                        if (queue.size() == SIZE) {
                             try {
                                 full.await();
                             } catch (InterruptedException e) {
                                 e.printStackTrace();
                             }
                         }
-                        String msg = "生产消息:"+i;
+                        String msg = "生产消息:" + i;
                         queue.add(msg);
                         System.out.println(msg);
                         empty.signal();
@@ -125,13 +128,13 @@ public class main {
                 while (true) {
                     lock.lock();
                     try {
-                        if(queue.isEmpty()) {
+                        if (queue.isEmpty()) {
                             try {
                                 empty.await();
                             } catch (InterruptedException e) {
                                 e.printStackTrace();
                             }
-                        }else {
+                        } else {
                             String msg = queue.remove();
                             System.out.println(msg + "已消费");
                             full.signal();
@@ -151,4 +154,45 @@ public class main {
         new Thread(consumer).start();
     }
 
+    public static void testProductConsumeByBlockingQueue() {
+        final BlockingQueue<String> queue = new ArrayBlockingQueue<>(10);
+        Runnable producer = new Runnable() {
+            @Override
+            public void run() {
+                for (int i = 0; i < 100; i++) {
+                    try {
+                        Thread.sleep(50);
+
+                        String msg = "消息：" + i;
+                        queue.put(msg);
+                        System.out.println("放入");
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+
+                }
+            }
+        };
+
+        Runnable consumer = new Runnable() {
+            @Override
+            public void run() {
+                while (true) {
+                    try {
+                        String msg = queue.take();
+                        System.out.println("取出 ： " + msg);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+
+                }
+            }
+        };
+
+        new Thread(producer).start();
+        new Thread(producer).start();
+        new Thread(producer).start();
+        new Thread(producer).start();
+        new Thread(consumer).start();
+    }
 }
