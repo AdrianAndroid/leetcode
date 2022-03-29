@@ -2,12 +2,16 @@ package com.flannery;
 
 import java.util.ArrayDeque;
 import java.util.Queue;
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class main {
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
-        testProductConsumeByWaitAndNotify();
+        //testProductConsumeByWaitAndNotify();
+        testProductConsumeByLock();
     }
 
     // 1. 使用wait()和notify()实现
@@ -50,7 +54,7 @@ public class main {
         Runnable consumer = new Runnable() {
             @Override
             public void run() {
-                while(true) {
+                while (true) {
                     synchronized (lock) {
                         while (queue.size() == 0) { // 没有数据了
                             try {
@@ -74,4 +78,77 @@ public class main {
         new Thread(consumer).start();
         new Thread(consumer).start();
     }
+
+    public static void testProductConsumeByLock() {
+        final int SIZE = 10;
+        ReentrantLock lock = new ReentrantLock();
+        final Condition full = lock.newCondition();
+        final Condition empty = lock.newCondition();
+        Queue<String> queue = new ArrayDeque<>(SIZE);
+
+        Runnable producer = new Runnable() {
+
+            public void run() {
+                try {
+                    Thread.sleep(1);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                for(int i=0;i<20;i++) {
+                    lock.lock();
+                    try {
+                        if(queue.size() == SIZE) {
+                            try {
+                                full.await();
+                            } catch (InterruptedException e) {
+                                e.printStackTrace();
+                            }
+                        }
+                        String msg = "生产消息:"+i;
+                        queue.add(msg);
+                        System.out.println(msg);
+                        empty.signal();
+                    } finally {
+                        lock.unlock();
+                    }
+                }
+            }
+        };
+
+        Runnable consumer = new Runnable() {
+            public void run() {
+                try {
+                    Thread.sleep(1);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                while (true) {
+                    lock.lock();
+                    try {
+                        if(queue.isEmpty()) {
+                            try {
+                                empty.await();
+                            } catch (InterruptedException e) {
+                                e.printStackTrace();
+                            }
+                        }else {
+                            String msg = queue.remove();
+                            System.out.println(msg + "已消费");
+                            full.signal();
+                        }
+                    } finally {
+                        lock.unlock();
+                    }
+                }
+            }
+        };
+
+        new Thread(producer).start();
+        new Thread(producer).start();
+        new Thread(producer).start();
+
+        new Thread(consumer).start();
+        new Thread(consumer).start();
+    }
+
 }
