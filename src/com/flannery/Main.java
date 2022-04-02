@@ -11,17 +11,45 @@ public class Main extends IArraySort {
         m.printArray(m.sort());
     }
 
+
+    @Override
+    public int[] sort() {
+        return sor_selct();
+    }
+
+    // 选择排序
+    // 找到最小的索引
+    // 交换
+    private int[] sor_selct() {
+        int[] res = ARRARY;
+        int min;
+        for (int i = 0; i < res.length; i++) {
+            min = i; // 默认当前是做小的
+            // 找到最小的那个索引
+            for (int j = i; j < res.length; j++) {
+                if (res[min] > res[j]) {
+                    min = j;
+                }
+            }
+            if(min != i) {
+                swap(res, i, min);
+            }
+        }
+
+
+        return res;
+    }
+
     // 冒泡算法
     // 比较相邻的的元素。
     // 如果顺序不对，就交换顺序
-    @Override
-    public int[] sort() {
+    private int[] sort_bubble() {
         int[] res = ARRARY;
         // 从第一个开始
         for (int i = 0; i < res.length; i++) {
-            for (int j = 0; j < res.length-1; j++) {
-                if(res[j] > res[j+1]) {
-                    swap(res, j, j+1);
+            for (int j = i; j < res.length - 1; j++) {
+                if (res[j] > res[j + 1]) {
+                    swap(res, j, j + 1);
                 }
             }
         }
@@ -37,7 +65,7 @@ abstract class IArraySort {
             System.out.print(i);
             System.out.print(",");
         }
-        System.out.println("数组大小："+arr.length);
+        System.out.println("数组大小：" + arr.length);
     }
 
     void swap(int[] array, int i, int j) {
