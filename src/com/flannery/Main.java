@@ -14,7 +14,26 @@ public class Main extends IArraySort {
 
     @Override
     public int[] sort() {
-        return sor_selct();
+        return sort_insert();
+    }
+
+    // 插入排序
+    // 假定位置i前面的序列是有序的
+    // 将位置i插入相应的位置中
+    private int[] sort_insert() {
+        int[] res = ARRARY;
+
+        for (int i = 1; i < res.length; i++) {
+            int j = i-1;
+            while (j > 0) {
+                if(res[j] < res[j-1]) {
+                    swap(res, j, j-1);
+                }
+                j--;
+            }
+        }
+
+        return res;
     }
 
     // 选择排序
