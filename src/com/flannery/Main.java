@@ -1,5 +1,9 @@
 package com.flannery;
 
+//https://www.runoob.com/w3cnote/quick-sort-2.html
+//https://www.cnblogs.com/onepixel/p/7674659.html
+//https://www.runoob.com/w3cnote/ten-sorting-algorithm.html
+
 public class Main extends IArraySort {
 
     public static void main(String[] args) {
@@ -15,6 +19,19 @@ public class Main extends IArraySort {
     @Override
     public int[] sort() {
         return sort_insert();
+    }
+
+    // 归并排序
+    private int[] sort_merge() {
+        int[] res = ARRARY;
+
+        return res;
+    }
+
+    // 希尔排序
+    private int[] sort_shell() {
+        int[] res = ARRARY;
+        return res;
     }
 
     // 插入排序
