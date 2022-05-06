@@ -18,6 +18,18 @@ public class main {
         testFloat3();
         System.out.println(LocalDate.now().lengthOfYear());
         System.out.println(LocalDate.of(2012, 1, 1).lengthOfYear());
+
+        testString();
+    }
+
+    public static void testString() {
+        // 代码1
+        String s1 = new String("ab") + new String("c");
+        String s2 = "abc";
+        s1.intern();
+        System.out.println(s1 == s2);
+
+
     }
 
     private static void testFloat3() {
