@@ -1,6 +1,8 @@
 package com.flannery;
 
-public class LinkedList<E> implements List<E> {
+import java.util.NoSuchElementException;
+
+public class LinkedList<E> implements List<E>, Queue<E> {
     transient int size = 0;
     transient Node<E> first;
     transient Node<E> last;
@@ -25,6 +27,33 @@ public class LinkedList<E> implements List<E> {
     public boolean add(E e) {
         linkLast(e);
         return true;
+    }
+
+    @Override
+    public boolean offer(E e) {
+        return add(e);
+    }
+
+    @Override
+    public E remove() {
+        return removeFirst();
+    }
+
+    @Override
+    public E poll() {
+        final Node<E> f = first;
+        return (f == null) ? null : unlinkFirst(f);
+    }
+
+    @Override
+    public E element() {
+        return getFirst();
+    }
+
+    @Override
+    public E peek() {
+        final Node<E> f = first;
+        return (f == null) ? null : f.item;
     }
 
     @Override
@@ -66,10 +95,8 @@ public class LinkedList<E> implements List<E> {
     public void add(int index, E element) {
         checkPositionIndex(index);
 
-        if (index == size)
-            linkLast(element);
-        else
-            linkBefore(element, node(index));
+        if (index == size) linkLast(element);
+        else linkBefore(element, node(index));
     }
 
 
@@ -139,10 +166,8 @@ public class LinkedList<E> implements List<E> {
         final Node<E> pred = succ.prev;
         final Node<E> newNode = new Node<>(pred, e, succ);
         succ.prev = newNode;
-        if (pred == null)
-            first = newNode;
-        else
-            pred.next = newNode;
+        if (pred == null) first = newNode;
+        else pred.next = newNode;
         size++;
     }
 
@@ -173,8 +198,7 @@ public class LinkedList<E> implements List<E> {
     }
 
     private void checkPositionIndex(int index) {
-        if (!isPositionIndex(index))
-            throw new IndexOutOfBoundsException(outOfBoundsMsg(index));
+        if (!isPositionIndex(index)) throw new IndexOutOfBoundsException(outOfBoundsMsg(index));
     }
 
     private boolean isPositionIndex(int index) {
@@ -209,5 +233,51 @@ public class LinkedList<E> implements List<E> {
             }
         }
         return x;
+    }
+
+    public E removeFirst() {
+        final Node<E> f = first;
+        if (f == null) throw new NoSuchElementException();
+        return unlinkFirst(f);
+    }
+
+    private E unlinkFirst(Node<E> f) {
+        final E element = f.item;
+        final Node<E> next = f.next;
+        f.item = null;
+        f.next = next; // help GC
+        first = next;
+        if (next == null) {
+            last = null;
+        } else {
+            next.prev = null;
+        }
+        size--;
+        return element;
+    }
+
+    private E unlinkLast(Node<E> l) {
+        final E elemet = l.item;
+        final Node<E> prev = l.prev;
+        l.item = null;
+        l.prev = null;
+        last = prev;
+        if (prev == null) first = null;
+        else prev.next = null;
+        size--;
+        return elemet;
+    }
+
+
+    public E getFirst() {
+        final Node<E> f = first;
+        if (f == null) throw new NoSuchElementException();
+        return f.item;
+    }
+
+    public E getLast() {
+        final Node<E> l = last;
+        if (l == null) throw new NoSuchElementException();
+        return l.item;
     }
 }
