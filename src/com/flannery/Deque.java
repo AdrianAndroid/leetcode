@@ -25,6 +25,8 @@ public interface Deque<E> extends Queue<E>{
     void push(E e);
     E pop();
     boolean remove(Object o);
-    boolean contains();
     int size();
+
+    @Override
+    boolean contains(Object o);
 }

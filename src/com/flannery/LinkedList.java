@@ -2,7 +2,7 @@ package com.flannery;
 
 import java.util.NoSuchElementException;
 
-public class LinkedList<E> implements List<E>, Queue<E> {
+public class LinkedList<E> implements List<E>, Deque<E> {
     transient int size = 0;
     transient Node<E> first;
     transient Node<E> last;
@@ -54,6 +54,16 @@ public class LinkedList<E> implements List<E>, Queue<E> {
     public E peek() {
         final Node<E> f = first;
         return (f == null) ? null : f.item;
+    }
+
+    @Override
+    public void push(E e) {
+        addFirst(e);
+    }
+
+    @Override
+    public E pop() {
+        return removeFirst();
     }
 
     @Override
@@ -235,10 +245,49 @@ public class LinkedList<E> implements List<E>, Queue<E> {
         return x;
     }
 
+    @Override
+    public void addFirst(E e) {
+        linkFirst(e);
+    }
+
+    @Override
+    public void addLast(E e) {
+        linkLast(e);
+    }
+
+    @Override
+    public void offerFirst(E e) {
+        addFirst(e);
+    }
+
+    @Override
+    public void offerLast(E e) {
+        addLast(e);
+    }
+
     public E removeFirst() {
         final Node<E> f = first;
         if (f == null) throw new NoSuchElementException();
         return unlinkFirst(f);
+    }
+
+    @Override
+    public E removeLast() {
+        final Node<E> l = last;
+        if (l == null) throw new NoSuchElementException();
+        return unlinkLast(l);
+    }
+
+    @Override
+    public E pollFirst() {
+        final Node<E> f = first;
+        return (f == null) ? null : unlinkFirst(f);
+    }
+
+    @Override
+    public E pollLast() {
+        final Node<E> l = last;
+        return (l == null) ? null : unlinkLast(l);
     }
 
     private E unlinkFirst(Node<E> f) {
@@ -279,5 +328,42 @@ public class LinkedList<E> implements List<E>, Queue<E> {
         final Node<E> l = last;
         if (l == null) throw new NoSuchElementException();
         return l.item;
+    }
+
+    @Override
+    public E peekFirst() {
+        final Node<E> f = first;
+        return (f == null) ? null : f.item;
+    }
+
+    @Override
+    public E peekLast() {
+        final Node<E> l = last;
+        return (f == null) ? null : l.item;
+    }
+
+    @Override
+    public boolean removeFirstOccurrence(Object o) {
+        return remove(o);
+    }
+
+    @Override
+    public boolean removeLastOccurrence(Object o) {
+        if (o == null) {
+            for (Node<E> x = last; x != null; x = x.prev) {
+                if (x.item == null) {
+                    unlink(x);
+                    return true;
+                }
+            }
+        } else {
+            for (Node<E> x = last; x != null; x = x.prev) {
+                if (o.equals(x.item)) {
+                    unlink(x);
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 }
