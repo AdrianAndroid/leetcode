@@ -339,7 +339,7 @@ public class LinkedList<E> implements List<E>, Deque<E> {
     @Override
     public E peekLast() {
         final Node<E> l = last;
-        return (f == null) ? null : l.item;
+        return (l == null) ? null : l.item;
     }
 
     @Override
