@@ -1,0 +1,1542 @@
+{
+  "subtypeImeData": [
+    {
+      "asciiCapable": true,
+      "extraValue": "TrySuppressingImeSwitcher,AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "en_US",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "3"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "TrySuppressingImeSwitcher,AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "en_GB",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "3"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "af",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "SupportTouchPositionCorrection,EmojiCapable",
+      "layoutSet": "arabic_123",
+      "localeStr": "ar",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "3"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "EmojiCapable",
+      "layoutSet": "east_slavic",
+      "localeStr": "be",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "EmojiCapable",
+      "layoutSet": "bulgarian",
+      "localeStr": "bg",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "EmojiCapable",
+      "layoutSet": "bulgarian_bds",
+      "localeStr": "bg",
+      "nameRes": "R.string.subtype_label"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "spanish",
+      "localeStr": "ca",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwertz",
+      "localeStr": "cs",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "3"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty_dansk",
+      "localeStr": "da",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "3"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "deutsch_qwertz_extended",
+      "localeStr": "de",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "3"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "EmojiCapable",
+      "layoutSet": "greek",
+      "localeStr": "el",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "EmojiCapable",
+      "layoutSet": "spanish",
+      "localeStr": "eo",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty_espanol",
+      "localeStr": "es",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "3"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty_espanol",
+      "localeStr": "es_LA",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "3"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "spanish",
+      "localeStr": "es_US",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty_espanol",
+      "localeStr": "es_SA",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "3"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "nordic",
+      "localeStr": "et_EE",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "EmojiCapable",
+      "layoutSet": "farsi",
+      "localeStr": "fa_IR",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "3"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty_suomi",
+      "localeStr": "fi",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "3"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "azerty",
+      "localeStr": "fr",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "3"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "fr_CA",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "EmojiCapable,disableWordSegmentationSuggestion,disableWordCorrectionSuggestion,disableAutoCap,disableShiftLock",
+      "layoutSet": "hindi",
+      "localeStr": "hi",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwertz",
+      "localeStr": "hr",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwertz",
+      "localeStr": "hu",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "3"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "EmojiCapable",
+      "layoutSet": "armenian_phonetic",
+      "localeStr": "hy_AM",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "in",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "is",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "it",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "3"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "SupportTouchPositionCorrection,EmojiCapable",
+      "layoutSet": "hebrew",
+      "localeStr": "iw",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "EmojiCapable",
+      "layoutSet": "georgian",
+      "localeStr": "ka_GE",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "EmojiCapable",
+      "layoutSet": "khmer",
+      "localeStr": "km_KH",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "EmojiCapable",
+      "layoutSet": "east_slavic",
+      "localeStr": "ky",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "EmojiCapable",
+      "layoutSet": "lao",
+      "localeStr": "lo_LA",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "lt",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "lv",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "EmojiCapable",
+      "layoutSet": "south_slavic",
+      "localeStr": "mk",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "EmojiCapable",
+      "layoutSet": "mongolian",
+      "localeStr": "mn_MN",
+      "nameRes": "R.string.subtype_label"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "ms_MY",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "3"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty_norsk",
+      "localeStr": "nb",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "3"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "nl",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "3"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,EmojiCapable",
+      "layoutSet": "azerty",
+      "localeStr": "nl_BE",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "pl",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "3"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "pt_BR",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "pt_PT",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "3"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "ro",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "3"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "SupportTouchPositionCorrection,EmojiCapable",
+      "layoutSet": "russian_compact",
+      "localeStr": "ru",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "3"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "sk",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,EmojiCapable",
+      "isHardKbdSupprted": true,
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "sl",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "SupportTouchPositionCorrection,EmojiCapable",
+      "layoutSet": "south_slavic",
+      "localeStr": "sr_RS",
+      "nameRes": "R.string.subtype_label"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty_svenska",
+      "localeStr": "sv",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "3"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "sw",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "EmojiCapable",
+      "layoutSet": "thai_kedmanee",
+      "localeStr": "th",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "3"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "spanish",
+      "localeStr": "tl",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "tr",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "3"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "EmojiCapable",
+      "layoutSet": "ukrainian_compact",
+      "localeStr": "uk",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "3"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "vi",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "3"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "zu",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,EmojiCapable",
+      "layoutSet": "qwerty",
+      "localeStr": "zz",
+      "nameRes": "R.string.subtype_label"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "EmojiCapable,ShadowSubtype\u003den_ZH",
+      "layoutSet": "chinese",
+      "localeStr": "zh",
+      "nameRes": "R.string.subtype_label"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "AsciiCapable,EmojiCapable,isShadowSubtype,ShadowSubtype\u003dzh",
+      "layoutSet": "en_qwerty",
+      "localeStr": "en_ZH",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "3"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "EmojiCapable",
+      "layoutSet": "korean",
+      "localeStr": "ko",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "2"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "EmojiCapable,disableAutoCap,disableShiftLock",
+      "layoutSet": "kannada_inscript",
+      "localeStr": "kn",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "EmojiCapable,disableEnglishLayoutInputLocality,enableCloudDict,disableAutoCap,disableShiftLock",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty_with_number",
+      "localeStr": "kn_LATIN",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "EmojiCapable,disableAutoCap,disableShiftLock",
+      "layoutSet": "assamese",
+      "localeStr": "as",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "EmojiCapable,disableAutoCap,disableShiftLock",
+      "layoutSet": "malayalam_inscript",
+      "localeStr": "ml",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "EmojiCapable,disableAutoCap,disableShiftLock",
+      "layoutSet": "telugu_inscript",
+      "localeStr": "te",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "EmojiCapable,disableEnglishLayoutInputLocality,enableCloudDict,disableAutoCap,disableShiftLock",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty_with_number",
+      "localeStr": "te_LATIN",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "EmojiCapable,disableWordSegmentationSuggestion,disableWordCorrectionSuggestion,disableAutoCap,disableShiftLock",
+      "layoutSet": "bengali",
+      "localeStr": "bn",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "EmojiCapable,disableEnglishLayoutInputLocality,enableCloudDict,disableAutoCap,disableShiftLock",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty_with_number",
+      "localeStr": "bn_LATIN",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "EmojiCapable,disableAutoCap,disableShiftLock",
+      "layoutSet": "punjabi",
+      "localeStr": "pa",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "EmojiCapable,disableEnglishLayoutInputLocality,enableCloudDict,disableAutoCap,disableShiftLock",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty_with_number",
+      "localeStr": "pa_LATIN",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "EmojiCapable,disableWordSegmentationSuggestion,disableWordCorrectionSuggestion,disableAutoCap,disableShiftLock",
+      "layoutSet": "tamil_inscript",
+      "localeStr": "ta",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "EmojiCapable,disableEnglishLayoutInputLocality,enableCloudDict,disableAutoCap,disableShiftLock",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty_with_number",
+      "localeStr": "ta_LATIN",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "EmojiCapable,disableWordSegmentationSuggestion,disableWordCorrectionSuggestion,disableAutoCap,disableShiftLock",
+      "layoutSet": "gujarati",
+      "localeStr": "gu",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "EmojiCapable,disableEnglishLayoutInputLocality,enableCloudDict,disableAutoCap,disableShiftLock",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty_with_number",
+      "localeStr": "gu_LATIN",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "EmojiCapable,disableWordSegmentationSuggestion,disableWordCorrectionSuggestion,disableAutoCap,disableShiftLock",
+      "layoutSet": "marathi_compact",
+      "localeStr": "mr",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "EmojiCapable,disableEnglishLayoutInputLocality,enableCloudDict,disableAutoCap,disableShiftLock",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty_with_number",
+      "localeStr": "mr_LATIN",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "EmojiCapable,disableWordSegmentationSuggestion,disableWordCorrectionSuggestion,disableAutoCap,disableShiftLock",
+      "layoutSet": "urdu",
+      "localeStr": "ur",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "3"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "EmojiCapable,disableWordSegmentationSuggestion,disableWordCorrectionSuggestion,disableAutoCap,disableShiftLock",
+      "layoutSet": "hindi",
+      "localeStr": "ne",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "EmojiCapable,disableAutoCap,disableShiftLock",
+      "layoutSet": "oriya_inscript",
+      "localeStr": "or",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "EmojiCapable,disableAutoCap,disableShiftLock",
+      "layoutSet": "hindi",
+      "localeStr": "brx",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "EmojiCapable,disableAutoCap,disableShiftLock",
+      "layoutSet": "hindi",
+      "localeStr": "doi",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "EmojiCapable,disableAutoCap,disableShiftLock",
+      "layoutSet": "hindi",
+      "localeStr": "kok",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "EmojiCapable,disableAutoCap,disableShiftLock",
+      "layoutSet": "kashmiri",
+      "localeStr": "ks",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "EmojiCapable",
+      "layoutSet": "hindi",
+      "localeStr": "mai",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "EmojiCapable,disableAutoCap,disableShiftLock",
+      "layoutSet": "manipuri_bengali",
+      "localeStr": "mni",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "EmojiCapable,disableAutoCap,disableShiftLock",
+      "layoutSet": "hindi",
+      "localeStr": "sa",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "EmojiCapable,disableAutoCap,disableShiftLock",
+      "layoutSet": "sindhi",
+      "localeStr": "sd",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "EmojiCapable,disableAutoCap,disableShiftLock",
+      "layoutSet": "hindi",
+      "localeStr": "sat",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "EmojiCapable,disableAutoCap,disableShiftLock",
+      "layoutSet": "sinhala",
+      "localeStr": "si",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "EmojiCapable",
+      "layoutSet": "myanmar_zawgyi",
+      "localeStr": "myz",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "EmojiCapable",
+      "layoutSet": "myanmar",
+      "localeStr": "my_MM",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "EmojiCapable",
+      "layoutSet": "bashkir",
+      "localeStr": "bak",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "EmojiCapable,ShadowSubtype\u003den_TW",
+      "layoutSet": "zhuyin",
+      "localeStr": "zh_TW",
+      "nameRes": "R.string.subtype_label"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "AsciiCapable,EmojiCapable,isShadowSubtype,ShadowSubtype\u003dzh_TW",
+      "layoutSet": "en_qwerty",
+      "localeStr": "en_TW",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "3"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "SupportTouchPositionCorrection,EmojiCapable",
+      "layoutSet": "nko",
+      "localeStr": "nk",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "ha",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "jv",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "su",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "SupportTouchPositionCorrection,EmojiCapable",
+      "layoutSet": "amharic",
+      "localeStr": "am",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "layoutSet": "azerbaijani",
+      "localeStr": "az",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "TrySuppressingImeSwitcher,AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "en_AU",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "TrySuppressingImeSwitcher,AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "en_CA",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "3"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "fil",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "3"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "ku",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "ig",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "mg",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "xh",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "yo",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "rw",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "oromo",
+      "localeStr": "om",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "SupportTouchPositionCorrection,EmojiCapable",
+      "layoutSet": "tigre",
+      "localeStr": "tig",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "SupportTouchPositionCorrection,EmojiCapable",
+      "layoutSet": "tigre",
+      "localeStr": "ti",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "SupportTouchPositionCorrection,EmojiCapable",
+      "layoutSet": "tibetan",
+      "localeStr": "bo",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "SupportTouchPositionCorrection,EmojiCapable",
+      "layoutSet": "pashto",
+      "localeStr": "ps",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "SupportTouchPositionCorrection,EmojiCapable",
+      "layoutSet": "uyghur",
+      "localeStr": "ug",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "uz_LATIN",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "layoutSet": "uzbek",
+      "localeStr": "uz_UZ",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "turkmen",
+      "localeStr": "tk",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "SupportTouchPositionCorrection,EmojiCapable",
+      "layoutSet": "tajik",
+      "localeStr": "tg",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "SupportTouchPositionCorrection,EmojiCapable",
+      "layoutSet": "dhivehi",
+      "localeStr": "dv",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "albanian",
+      "localeStr": "sq",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "aragonese",
+      "localeStr": "an",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "asturian",
+      "localeStr": "ast",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "eu",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "bosnian",
+      "localeStr": "bs_BA",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "layoutSet": "bosnian_cyrl",
+      "localeStr": "bs_CYRL",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "br",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "SupportTouchPositionCorrection,EmojiCapable",
+      "layoutSet": "chechen",
+      "localeStr": "ce",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "SupportTouchPositionCorrection,EmojiCapable",
+      "layoutSet": "chuvash",
+      "localeStr": "cv",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "gl",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "ga",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "fo",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "nds",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "SupportTouchPositionCorrection,EmojiCapable",
+      "layoutSet": "sakha",
+      "localeStr": "sah",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "layoutSet": "qwerty",
+      "localeStr": "lb",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "mt",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "azerty",
+      "localeStr": "oc",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "cy",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "SupportTouchPositionCorrection,EmojiCapable",
+      "layoutSet": "tatar",
+      "localeStr": "tt",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "italian_ch",
+      "localeStr": "it_CH",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "SupportTouchPositionCorrection,EmojiCapable",
+      "layoutSet": "kurdish_ckb",
+      "localeStr": "kur_CKB",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "EmojiCapable",
+      "layoutSet": "sindhi_pk",
+      "localeStr": "sd_PK",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "serbian_latin",
+      "localeStr": "sr_LATIN",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "gd",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "nordic",
+      "localeStr": "nn",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "SupportTouchPositionCorrection,EmojiCapable",
+      "layoutSet": "east_slavic",
+      "localeStr": "kk_KZ",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "3"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "deutsch_qwertz_extended",
+      "localeStr": "de_CH",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "frisian",
+      "localeStr": "fy",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "fr_EU",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "3"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "TrySuppressingImeSwitcher,AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "en_NZ",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "TrySuppressingImeSwitcher,AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "en_IN",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "3"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty_espanol",
+      "localeStr": "es_MX",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "3"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty_espanol",
+      "localeStr": "es_CO",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "3"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "spanish",
+      "localeStr": "es_AR",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "hmn",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "TrySuppressingImeSwitcher,AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "english_ph",
+      "localeStr": "en_PH",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "waray",
+      "localeStr": "war",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "SupportTouchPositionCorrection,EmojiCapable",
+      "layoutSet": "nepali_traditional",
+      "localeStr": "ne_NP",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "bambara",
+      "localeStr": "bm",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "SupportTouchPositionCorrection,EmojiCapable",
+      "layoutSet": "berber",
+      "localeStr": "zgh",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "SupportTouchPositionCorrection,EmojiCapable",
+      "layoutSet": "arabic_123",
+      "localeStr": "ar_MA",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "EmojiCapable,ShadowSubtype\u003den_HK",
+      "layoutSet": "cangjie",
+      "localeStr": "zh_HK",
+      "nameRes": "R.string.subtype_label"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "AsciiCapable,EmojiCapable,isShadowSubtype,ShadowSubtype\u003dzh_HK",
+      "layoutSet": "en_qwerty",
+      "localeStr": "en_HK",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "3"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "mi",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "EmojiCapable",
+      "layoutSet": "japanese_latin",
+      "localeStr": "ja_JP",
+      "nameRes": "R.string.subtype_label"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "SupportTouchPositionCorrection,EmojiCapable",
+      "layoutSet": "arabic_123",
+      "localeStr": "ar_EG",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "3"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "wen_DE",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "smi_NO",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "fa_TJ",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "kk_LATIN",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty_with_number",
+      "localeStr": "hi_LATIN",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "3"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "SupportTouchPositionCorrection,EmojiCapable",
+      "layoutSet": "arabic_123",
+      "localeStr": "ar_SA",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "3"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "SupportTouchPositionCorrection,EmojiCapable",
+      "layoutSet": "jawi",
+      "localeStr": "ms_JAWI",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "TrySuppressingImeSwitcher,AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "sdc_IT",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "TrySuppressingImeSwitcher,AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "en_ZA",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "SupportTouchPositionCorrection,EmojiCapable",
+      "layoutSet": "arabic_123",
+      "localeStr": "ar_DZ",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "SupportTouchPositionCorrection,EmojiCapable",
+      "layoutSet": "arabic_123",
+      "localeStr": "ar_LVT",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": false,
+      "extraValue": "SupportTouchPositionCorrection,EmojiCapable",
+      "layoutSet": "arabic_123",
+      "localeStr": "ar_TN",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    },
+    {
+      "asciiCapable": true,
+      "extraValue": "TrySuppressingImeSwitcher,AsciiCapable,SupportTouchPositionCorrection,EmojiCapable",
+      "functionSubtypeSupported": false,
+      "layoutSet": "qwerty",
+      "localeStr": "gag",
+      "nameRes": "R.string.subtype_label",
+      "latinDictType": "1"
+    }
+  ]
+}
